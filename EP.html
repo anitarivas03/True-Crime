@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ética Profesional — El ethos del True Crime</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesEP.css">
+</head>
+<body>
+
+<div id="type-bar"><b>▍</b><span id="tw-text"></span><span class="caret"></span></div>
+<div id="progress" aria-label="Progreso del caso"></div>
+<button id="fs" onclick="toggleFS()" title="Pantalla completa">⛶</button>
+<div class="deck" id="deck"></div>
+<div id="count"></div>
+<div id="nav">
+  <button id="prev" onclick="go(-1)">‹</button>
+  <div id="dots"></div>
+  <button id="next" onclick="go(1)">›</button>
+</div>
+
+<script src="EP.js"></script>
+</body>
+</html>
